@@ -75,10 +75,12 @@
 .menu__btn {
 	display: none;
 }
+
 @media screen and (max-width: 768px) {
 	.header {
 		padding: 1rem;
 	}
+	
 	.header .links {
 		position: fixed;
 		width: 100%;
