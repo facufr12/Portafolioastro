@@ -9,15 +9,14 @@
  * @property {string} repoURL Url del repositorio, ej: https://github.com/usuario/repo
  * @property {string} anim La animación que se ejecutará cuando se cargue la tarjeta, ej: fade-up, fade-right, fade-left, fade-down
  * @property {number} averageBrightness Cuanto brillo tendrá el color de fondo de la tarjeta, ej: 0.1
- */
-
+*/
 /**
  * @SofiDev Esto es JSDOC, si consideras que puede ser complicado solo borralo, es un comentario, no afectará en nada
  * @type {PortafolioData[]}
  */
 export const portafolioData = [
 	{
-		imgSrc: 'https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2021/06/copy-of-the-6-best-restaurant-website-templates-1.png',
+		imgSrc: '/calculadora.png',
 		title: 'Restaurant',
 		skills: ['React', 'StyledComponents'],
 		descripcion:
@@ -27,12 +26,12 @@ export const portafolioData = [
 		anim: 'fade-right',
 	},
 	{
-		imgSrc: 'https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/299377097/original/7eb7dcebe244fcf5ad75d92b0969fc116946bd57/create-professional-amd-responsive-wordpress-website.jpg',
-		title: 'E-commerce',
+		imgSrc: '/calculadora.png',
+				title: 'E-commerce',
 		skills: ['JavaScript', 'Bootstrap'],
 		descripcion:
 			' Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
-		demoURL: '',
+		demoURL: 'https://calculadora-scoring-bajas.netlify.app/',
 		repoURL: '',
 		anim: 'fade-up',
 		averageBrightness: 0.1,
